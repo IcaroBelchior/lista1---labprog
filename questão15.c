@@ -16,7 +16,7 @@ int main() {
     gratificação  = valorFinal * 20/100;
     valorFinal = (valorFinal - desconto) + gratificação;
     }
-   else if(dias>20){
+   else {
     valorFinal = dias * 50,25;
     desconto = valorFinal * 10/100;
     gratificação  = valorFinal * 30/100;
